@@ -1,0 +1,58 @@
+#include <iostream>
+#include <string>
+
+int main(int argc, char const *argv[])
+{
+    return 0;
+}
+
+class AFN: 
+{
+private:
+std::string Q[10];
+    char E[100];
+    std::string q0;
+    std::string F[10];
+public:
+    void transitionFunction();
+    AFN();
+    ~AFN();
+};
+
+AFN::AFN()
+{
+}
+
+AFN::~AFN()
+{
+}
+void AFN::Funciondetransicion()
+{
+}
+
+class AFD: 
+{
+private:
+std::string Q[10];
+    char E[100];
+    std::string q0;
+    std::string F[10];
+    
+public:
+    AutomataFinito();
+    void mover();
+    void Funciondetransicion();
+    AFD();
+    ~AFD();
+};
+
+AFD::AFD()
+{
+}
+
+void AFD::Funcionde transicion()
+{
+}
+AFD::~AFD()
+{
+}
